@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <!-- nav-belt-->
+    <div id="nav-belt">
+      <!-- left nav_bar-->
+      <div id="nav-direction" class="border">
+        <p class="add-first">Deliver to Arish</p>
+        <div class="location-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="add-sec">New Delhi 110025</p>
+        </div>
+      </div>
+      <!-- search box-->
+
+      <div id="nav-search">
+        <select class="search-select">
+          <option value="">All</option>
+        </select>
+        <input class="search-input" placeholder="search amazon" />
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+
+
+
+      <!-- Dropdown pop-->
+      <div class="lang-wrapper">
+        <div class="lang-mini border">
+          <img src="https://flagcdn.com/w40/in.png" alt="IN Flag" class="flag-icon">
+          <span class="lang-text">EN</span>
+          <span class="arrow">&#9662;</span>
+        </div>
+
+        <div class="lang-dropdown">
+          <form>
+            <label><input type="radio" name="lang" checked> English - EN</label>
+            <label><input type="radio" name="lang"> हिन्दी - HI</label>
+            <label><input type="radio" name="lang"> தமிழ் - TA</label>
+            <label><input type="radio" name="lang"> తెలుగు - TE</label>
+            <label><input type="radio" name="lang"> ಕನ್ನಡ - KN</label>
+            <label><input type="radio" name="lang"> മലയാളം - ML</label>
+            <label><input type="radio" name="lang"> বাংলা - BN</label>
+            <label><input type="radio" name="lang"> मराठी - MR</label>
+          </form>
+          <hr>
+          <a href="#">Learn more</a>
+          <div class="region-info">
+            <img src="https://flagcdn.com/w40/in.png" alt="IN" width="16">
+            <span>You are shopping on Amazon.in</span>
+            <a href="#">Change country/region</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- sign-->
+      <div class="nav-signin border">
+        <p><span>Hello, sign in</span></p>
+        <p class="sec-head">Account & Lists</p>
+      </div>
+
+      <!-- return-->
+      <div class="nav-return border ">
+        <p><span>Returns</span></p>
+        <p class="sec-head">& Orders</p>
+      </div>
+
+      <!-- cart-->
+      <div class="nav-cart border">
+        <div class="cart-icon-wrapper">
+          <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white"
+            viewBox="0 0 24 24">
+            <path
+              d="M7 18c-1.104 0-1.99.896-1.99 2s.886 2 1.99 2 2-.896 2-2-.896-2-2-2zm10 0c-1.104 0-1.99.896-1.99 2s.886 2 1.99 2 2-.896 2-2-.896-2-2-2zM7.832 14l-.743-2h10.379c.857 0 1.616-.545 1.888-1.357l2.644-7.643A1 1 0 0021 2H5.21l-.3-.858A1 1 0 004 1H1v2h2l3.6 10.59-1.35 2.44C4.52 17.37 5.48 19 7 19h12v-2H7.832z" />
+          </svg>
+          <span class="cart-count">0</span>
+        </div>
+        <span class="cart-text">Cart</span>
+      </div>
+
+    </div>
+
+    <!-- secondary navbar-->
+    <div class="panel ">
+      <div class="panel-all border">
+        <i class="fa-solid fa-bars"></i>
+        All
+      </div>
+      <div class="panel-options ">
+        <a href="#">Fresh</a>
+        <a href="#">Today's Deals</a>
+        <a href="#">Sell</a>
+        <a href="#">MX Player</a>
+        <a href="#">Mobiles</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Prime</a>
+
+      </div>
+
+      <div class="panel-deal border">
+        Great Freedom Festival.
+      </div>
+
+    </div>
+
+    <!-- Banner Section -->
+    <div class="banner-wrapper">
+      <button class="scroll-arrow scroll-arrow-left"
+        onclick="document.querySelector('.banner-track').scrollBy({left: -window.innerWidth, behavior: 'smooth'});">&#10094;</button>
+
+      <div class="banner-track">
+        <div class="banner-slide"><img src="b-1.jpg" alt="Slide 1"></div>
+        <div class="banner-slide"><img src="b-2.png" alt="Slide 2"></div>
+        <div class="banner-slide"><img src="b-3.png" alt="Slide 3"></div>
+        <div class="banner-slide"><img src="b-4.jpg" alt="Slide 4"></div>
+        <div class="banner-slide"><img src="b-5.jpg" alt="Slide 5"></div>
+      </div>
+
+      <button class="scroll-arrow scroll-arrow-right"
+        onclick="document.querySelector('.banner-track').scrollBy({left: window.innerWidth, behavior: 'smooth'});">&#10095;</button>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="multi-card-wrapper">
+      <div class="multi-card">
+        <h2>Revamp your home in style</h2>
+        <div class="multi-card-grid">
+          <div><img src="c-1,1.jpg" alt="Cushion covers, bedsheets">
+            <p>Cushion covers, bedsheets & more</p>
+          </div>
+          <div><img src="c-1,2.jpg" alt="Figurines and vases">
+            <p>Figurines, vases & more</p>
+          </div>
+          <div><img src="c-1,3.jpg" alt="Home storage">
+            <p>Home storage</p>
+          </div>
+          <div><img src="c-1,4.jpg" alt="Lighting solutions">
+            <p>Lighting solutions</p>
+          </div>
+        </div>
+        <a href="#">Explore all</a>
+      </div>
+
+      <div class="multi-card">
+        <h2>Appliances for your home | Up to 55% off</h2>
+        <div class="multi-card-grid">
+          <div><img src="c-2,1.jpg" alt="Air conditioners">
+            <p>Air conditioners</p>
+          </div>
+          <div><img src="c-2,2.jpg" alt="Refrigerators">
+            <p>Refrigerators</p>
+          </div>
+          <div><img src="c-2,3.jpg" alt="Microwaves">
+            <p>Microwaves</p>
+          </div>
+          <div><img src="c-2,4.jpg" alt="Washing machines">
+            <p>Washing machines</p>
+          </div>
+        </div>
+        <a href="#">See more</a>
+      </div>
+
+      <div class="multi-card">
+        <h2>Starting ₹149 | Headphones</h2>
+        <div class="multi-card-grid">
+          <div><img src="c-3,1.jpg" alt="boAt headphone">
+            <p>Starting ₹249 | boAt</p>
+          </div>
+          <div><img src="c-3,2.jpg" alt="Boult headphone">
+            <p>Starting ₹349 | boult</p>
+          </div>
+          <div><img src="c-3,3.jpg" alt="Noise headphone">
+            <p>Starting ₹649 | Noise</p>
+          </div>
+          <div><img src="c-3,4.jpg" alt="Zebronics headphone">
+            <p>Starting ₹149 | Zebronics</p>
+          </div>
+        </div>
+        <a href="#">See all offers</a>
+      </div>
+
+      <div class="multi-card">
+        <h2>Under ₹499 | Deals on home improvement essentials</h2>
+        <div class="multi-card-grid">
+          <div><img src="c-4,1.jpg" alt="Cleaning supplies">
+            <p>Under ₹199 | Cleaning supplies</p>
+          </div>
+          <div><img src="c-4,2.jpg" alt="Bathroom accessories">
+            <p>Under ₹399 | Bathroom accessories</p>
+          </div>
+          <div><img src="c-4,3.jpg" alt="Home tools">
+            <p>Under ₹499 | Home tools</p>
+          </div>
+          <div><img src="c-4,4.jpg" alt="Wallpapers">
+            <p>Under ₹299 | Wallpapers</p>
+          </div>
+        </div>
+        <a href="#">Explore all</a>
+      </div>
+    </div>
+
+
+
+    <div class="shop-section">
+      <div class="box">
+        <div class="box-content">
+          <h2>Health & Personal Care </h2>
+          <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Clothing</h2>
+          <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Furniture </h2>
+          <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Mobiles & Electronics </h2>
+          <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Cosmetics </h2>
+          <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Pets care </h2>
+          <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>New Arrival in toys</h2>
+          <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Discover fashion trends </h2>
+          <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
+          <p>see more</p>
+        </div>
+      </div>
+    </div>
+</body>
+
+<footer>
+  <div class="foot-panel1">
+    Back to Top
+  </div>
+
+  <div class="foot-panel2">
+    <ul>
+      <p>Get to know us</p>
+      <a href="">Careers</a>
+      <a href="">Blog</a>
+      <a href="">About Amazon</a>
+      <a href="">Investor Relations</a>
+      <a href="">Amazon Devices</a>
+      <a href="">Amazon Science</a>
+    </ul>
+    <ul>
+      <p>Make Money with Us</p>
+      <a href="">Careers</a>
+      <a href="">Blog</a>
+      <a href="">About Amazon</a>
+      <a href="">Investor Relations</a>
+      <a href="">Amazon Devices</a>
+      <a href="">Amazon Science</a>
+    </ul>
+    <ul>
+      <p>Let Us Help You</p>
+      <a href="">Careers</a>
+      <a href="">Blog</a>
+      <a href="">About Amazon</a>
+      <a href="">Investor Relations</a>
+      <a href="">Amazon Devices</a>
+      <a href="">Amazon Science</a>
+    </ul>
+    <ul>
+      <p>Get to know us</p>
+      <a href="">Careers</a>
+      <a href="">Blog</a>
+      <a href="">About Amazon</a>
+      <a href="">Investor Relations</a>
+      <a href="">Amazon Devices</a>
+      <a href="">Amazon Science</a>
+    </ul>
+  </div>
+
+  <div class="foot-panel3">
+    <div class="logo"></div>
+  </div>
+  <div class="wholepanel">
+    <div class="foot-panel4">
+      <div class="pages">
+        <a href="">Conditions of use</a>
+        <a href="">Privacy Notices</a>
+        <a href="">Your Ads privacy choices</a>
+      </div>
+      <div class="copyright">
+        © 1996-2025, Amazon.com, Inc. or its affiliates
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+</header>
+</body>
+
+</html>
